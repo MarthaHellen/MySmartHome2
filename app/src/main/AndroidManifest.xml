@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/dn"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MySmartHome"
+        tools:targetApi="31">
+        <activity
+            android:name=".SelectThing"
+            android:exported="false" />
+        <activity
+            android:name=".SelectEvent"
+            android:exported="false" />
+        <activity
+            android:name=".WriteRoutine"
+            android:exported="false" />
+        <activity
+            android:name=".newRoutine"
+            android:exported="false" />
+        <activity
+            android:name=".Condition"
+            android:exported="false" />
+        <activity
+            android:name=".event"
+            android:exported="false" />
+        <activity
+            android:name=".action"
+            android:exported="false" />
+        <activity
+            android:name=".selectRoutine"
+            android:exported="false" />
+        <activity
+            android:name=".ActiveRoutine"
+            android:exported="false" />
+        <activity
+            android:name=".selectAction"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".select_time_event"
+            android:exported="false" />
+        <activity
+            android:name=".write_routine"
+            android:exported="false" />
+        <activity
+            android:name=".create_routine"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
