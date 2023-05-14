@@ -23,36 +23,36 @@
         <activity
             android:name=".newRoutine"
             android:exported="false" />
-        <activity
-            android:name=".Condition"
-            android:exported="false" />
-        <activity
-            android:name=".event"
-            android:exported="false" />
-        <activity
-            android:name=".action"
-            android:exported="false" />
-        <activity
-            android:name=".selectRoutine"
-            android:exported="false" />
-        <activity
-            android:name=".ActiveRoutine"
-            android:exported="false" />
-        <activity
-            android:name=".selectAction"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity5"
-            android:exported="false" />
-        <activity
-            android:name=".select_time_event"
-            android:exported="false" />
-        <activity
-            android:name=".write_routine"
-            android:exported="false" />
-        <activity
-            android:name=".create_routine"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".Condition"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".event"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".action"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".selectRoutine"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".ActiveRoutine"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".selectAction"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity5"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".SelectEvent"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".WriteRoutine"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".create_routine"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".MainActivity"
             android:exported="true">

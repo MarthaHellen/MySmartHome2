@@ -3,23 +3,23 @@
 
     <item android:title="Favourites"
         android:id="@+id/favourites"
-        android:icon="@drawable/baseline_star_outline_24"
+        android:icon="@drawable/ic_favorite"
         />
     <item android:title="Things"
         android:id="@+id/things"
-        android:icon="@drawable/baseline_view_compact_24"
+        android:icon="@drawable/ic_bc_things"
         />
     <item android:title="Routines"
         android:id="@+id/routines"
-        android:icon="@drawable/baseline_replay_circle_filled_24"
+        android:icon="@drawable/ic_restore_routines"
         />
     <item android:title="Ideas"
         android:id="@+id/ideas"
-        android:icon="@drawable/baseline_lightbulb_24"
+        android:icon="@drawable/ic_idea"
 
         />
     <item android:title="Settings"
         android:id="@+id/settings"
-        android:icon="@drawable/baseline_search_24"
+        android:icon="@drawable/ic_settings"
         />
 </menu>

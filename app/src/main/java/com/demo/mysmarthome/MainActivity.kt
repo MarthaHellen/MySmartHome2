@@ -23,7 +23,13 @@ class MainActivity : AppCompatActivity() {
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView2)
 
+        val selectedFragment = intent.getStringExtra("SELECTED_FRAGMENT")
+        if (selectedFragment == "routines"){
+            replaceFragment(routinesFragment)
+            bottomNavigationView.selectedItemId= R.id.routines
 
+        }else{
+        replaceFragment(Favourites())}
 
         bottomNavigationView.setOnItemSelectedListener {
             when (it.itemId) {

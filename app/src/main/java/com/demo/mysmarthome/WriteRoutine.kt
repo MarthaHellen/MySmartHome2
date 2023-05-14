@@ -110,7 +110,7 @@ class WriteRoutine : AppCompatActivity(){
                 // Inflate the LinearLayout resource file
                 val eventRowLayout = layoutInflater.inflate(R.layout.time_set, null)
                 // Update the text of the TextView in the LinearLayout
-                // eventRowLayout.findViewById<TextView>(R.id.tv_AddTime).text = "The time is $timeText"
+
                 // Replace the TextView with id @+id/selectedTimeTV with the inflated LinearLayout
                 val selectedTimeTVContainer = findViewById<ViewGroup>(R.id.selectedTime)
                 val selectedTimeTV = findViewById<TextView>(R.id.selected)
@@ -148,7 +148,7 @@ class WriteRoutine : AppCompatActivity(){
     }
 
     private fun showInputDialog() {
-        val builder = AlertDialog.Builder(this)
+        val builder = AlertDialog.Builder(this)// that instance of the page
         builder.setTitle("Enter a value")
 
         val input = EditText(this)
@@ -172,8 +172,6 @@ class WriteRoutine : AppCompatActivity(){
             val editor = sharedPreferences.edit()
             editor.putString("NotificationPrefs", inputText)
             editor.apply()
-//            container.removeAllViews()
-//            container.addView(actionRowLayout)
 
             showProcessingDialog(input.text.toString())
 
@@ -198,9 +196,6 @@ class WriteRoutine : AppCompatActivity(){
         dialog.show()
 
         //TODO: Replace this with the logic to create a new routine using the entered value
-//        Handler().postDelayed({
-//            dialog.dismiss()
-//        }, 3000)
 
         addRoutineRecord()
     }
